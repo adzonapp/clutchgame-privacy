@@ -1,11 +1,11 @@
 # Privacy Policy — ClutchGame
 
-**Effective date:** April 26, 2026
-**Last updated:** April 26, 2026
+**Effective date:** May 30, 2026
+**Last updated:** May 30, 2026
 
 This Privacy Policy describes how ClutchGame ("the App", "we", "us") handles
 information when you use our mobile application. ClutchGame is a fast-paced brain
-speed challenge published by Adzonapp. We are committed to keeping your data
+speed challenge published by Adzon Studios. We are committed to keeping your data
 minimal, secure, and never selling it.
 
 ---
@@ -13,9 +13,9 @@ minimal, secure, and never selling it.
 ## 1. Who we are
 
 ClutchGame is a free mental-math game and brain speed challenge published by
-**Adzonapp**, an independent app publisher. Contact: **adzonapp@gmail.com**.
+**Adzon Studios**, an independent app publisher. Contact: **adzonapp@gmail.com**.
 
-Package name: `com.brainspeed.clutchgame`
+Package name: `com.brainspeed.clutchgame` (or your chosen package name)
 
 ---
 
@@ -27,16 +27,17 @@ number, location, photos, contacts, microphone, camera, or any account data. The
 is no sign-up, no login, no profile.
 
 ### 2.2 Information stored on your device only
-The following are stored locally in Android `PlayerPrefs` and never leave your
+The following are stored locally in Android `SharedPreferences` and local `Hive` databases and never leave your
 device unless you explicitly choose to share:
 
 - High score and best streak
 - Total XP, current level, games played count
-- Local leaderboard (top 10 scores on this device)
+- Local leaderboard (top scores on this device)
 - Settings (music volume, SFX, haptics, difficulty, color-blind mode, theme)
 - Daily login streak counter
 - "Has seen tutorial" flag
 - Ads-removed purchase flag (if you bought the IAP)
+- Equipped power-ups and shop inventory
 
 You can delete all of this at any time by uninstalling the App or clearing app data
 in your device's Android Settings.
@@ -46,13 +47,13 @@ The App uses these third-party SDKs:
 
 | SDK | Purpose | What it collects |
 |-----|---------|------------------|
-| **Google AdMob** | Show banner + interstitial ads | Advertising ID, IP address (approximate region only), basic device info, ad interaction events |
-| **Google Play Billing (Unity IAP)** | Process the optional "Remove Ads" purchase | Purchase token, Google account ID *(handled entirely by Google Play, not us)* |
-| **Unity Engine** | Run the game | Crash reports, basic device model/OS version (anonymous) |
+| **Google AdMob** | Show banner, interstitial, and rewarded ads | Advertising ID, IP address (approximate region only), basic device info, ad interaction events |
+| **Google Play Billing** | Process the optional "Gem Packs" or "Remove Ads" purchases | Purchase token, Google account ID *(handled entirely by Google Play, not us)* |
+| **Firebase Crashlytics** | Monitor app stability | Crash reports, basic device model/OS version (anonymous) |
+| **Firebase Analytics** | Understand app usage | App interactions, screen views, session duration (anonymous) |
 
 We do not control what these providers collect. Their privacy policies apply:
-- Google: https://policies.google.com/privacy
-- Unity: https://unity.com/legal/privacy-policy
+- Google/Firebase: https://policies.google.com/privacy
 
 ---
 
@@ -64,7 +65,8 @@ We do not control what these providers collect. Their privacy policies apply:
   *Android Settings → Privacy → Ads → Delete advertising ID / Opt out of Ads
   Personalization*
 - **Purchase verification** — Google Play tells the App whether you bought
-  "Remove Ads"; this is the only purchase-related data the App sees
+  Gems or "Remove Ads"; this is the only purchase-related data the App sees
+- **Stability and Improvements** — Firebase Analytics and Crashlytics help us fix bugs and see which game modes are most popular.
 
 We do **not** use your data for marketing emails, profile-building, or sale to
 third parties.
@@ -76,6 +78,7 @@ third parties.
 We do not sell, rent, or trade any data. The only data that leaves your device is:
 - What Google AdMob receives to serve ads (see §2.3)
 - What Google Play receives to process a purchase (only if you tap Buy)
+- What Firebase receives for basic analytics and crash reporting.
 
 ---
 
@@ -99,8 +102,6 @@ personal data in any case).
   immediately erased.
 - **Opt out of ad personalization** — Use the Android system setting described
   in §3.
-- **Remove ads entirely** — One-time $2.99 in-app purchase from the Settings
-  screen. Restores free across devices on the same Google account.
 - **Contact us** — Email **adzonapp@gmail.com** for any privacy
   question. We respond within 7 days.
 
@@ -118,14 +119,14 @@ information.
 
 - **On your device:** kept until you uninstall or clear data
 - **On our servers:** we operate no servers; we retain nothing
-- **Google AdMob / Play:** governed by Google's retention policies
+- **Google AdMob / Play / Firebase:** governed by Google's retention policies
 
 ---
 
 ## 8. Security
 
 Local data is sandboxed by Android's app isolation. Network traffic to Google's
-ad and billing services uses HTTPS. We use no custom backend, so there is no
+ad, billing, and analytics services uses HTTPS. We use no custom backend, so there is no
 server-side data to breach.
 
 ---
@@ -140,6 +141,6 @@ accept the new policy.
 
 ## 10. Contact
 
-**Adzonapp**
+**Adzon Studios**
 Email: **adzonapp@gmail.com**
-Country: India *(or wherever your developer account is registered)*
+Country: India
