@@ -1,146 +1,259 @@
-# Privacy Policy — ClutchGame
+# Privacy Policy — Clutch: The 18% Test
 
-**Effective date:** May 30, 2026
-**Last updated:** May 30, 2026
+**Effective Date:** June 2026
+**Last Updated:** June 2026
 
-This Privacy Policy describes how ClutchGame ("the App", "we", "us") handles
-information when you use our mobile application. ClutchGame is a fast-paced brain
-speed challenge published by Adzon Studios. We are committed to keeping your data
-minimal, secure, and never selling it.
+This Privacy Policy describes how Clutch: The 18% Test ("the App", "we", "us") handles information when you use our mobile application.
 
----
-
-## 1. Who we are
-
-ClutchGame is a free mental-math game and brain speed challenge published by
-**Adzon Studios**, an independent app publisher. Contact: **adzonapp@gmail.com**.
-
-Package name: `com.brainspeed.clutchgame` (or your chosen package name)
+Clutch: The 18% Test is published by Adzon Studios. We are committed to minimizing data collection, protecting user privacy, and maintaining transparency about how information is processed.
 
 ---
 
-## 2. What information we collect
+# 1. Who We Are
 
-### 2.1 Information we collect directly
-**None.** The App does not ask for, collect, or transmit your name, email, phone
-number, location, photos, contacts, microphone, camera, or any account data. There
-is no sign-up, no login, no profile.
+Publisher: Adzon Studios
 
-### 2.2 Information stored on your device only
-The following are stored locally in Android `SharedPreferences` and local `Hive` databases and never leave your
-device unless you explicitly choose to share:
+Contact Email: [adzonapp@gmail.com](mailto:adzonapp@gmail.com)
 
-- High score and best streak
-- Total XP, current level, games played count
-- Local leaderboard (top scores on this device)
-- Settings (music volume, SFX, haptics, difficulty, color-blind mode, theme)
-- Daily login streak counter
-- "Has seen tutorial" flag
-- Ads-removed purchase flag (if you bought the IAP)
-- Equipped power-ups and shop inventory
+Package Name:
 
-You can delete all of this at any time by uninstalling the App or clearing app data
-in your device's Android Settings.
-
-### 2.3 Information collected by third parties
-The App uses these third-party SDKs:
-
-| SDK | Purpose | What it collects |
-|-----|---------|------------------|
-| **Google AdMob** | Show banner, interstitial, and rewarded ads | Advertising ID, IP address (approximate region only), basic device info, ad interaction events |
-| **Google Play Billing** | Process the optional "Gem Packs" or "Remove Ads" purchases | Purchase token, Google account ID *(handled entirely by Google Play, not us)* |
-| **Firebase Crashlytics** | Monitor app stability | Crash reports, basic device model/OS version (anonymous) |
-| **Firebase Analytics** | Understand app usage | App interactions, screen views, session duration (anonymous) |
-
-We do not control what these providers collect. Their privacy policies apply:
-- Google/Firebase: https://policies.google.com/privacy
+com.brainspeed.clutchgame
 
 ---
 
-## 3. How we use the information
+# 2. Information We Collect
 
-- **Local stats** — to show your progress, leaderboard, level, missions
-- **Ad personalization** — Google AdMob may serve personalized ads based on your
-  Advertising ID. You can reset or opt out at any time in:
-  *Android Settings → Privacy → Ads → Delete advertising ID / Opt out of Ads
-  Personalization*
-- **Purchase verification** — Google Play tells the App whether you bought
-  Gems or "Remove Ads"; this is the only purchase-related data the App sees
-- **Stability and Improvements** — Firebase Analytics and Crashlytics help us fix bugs and see which game modes are most popular.
+## 2.1 Information We Collect Directly
 
-We do **not** use your data for marketing emails, profile-building, or sale to
-third parties.
+We do not require account creation.
 
----
+We do not collect:
 
-## 4. Data sharing
+* Name
+* Email address
+* Phone number
+* Postal address
+* Photos
+* Contacts
+* Messages
+* Camera data
+* Microphone data
 
-We do not sell, rent, or trade any data. The only data that leaves your device is:
-- What Google AdMob receives to serve ads (see §2.3)
-- What Google Play receives to process a purchase (only if you tap Buy)
-- What Firebase receives for basic analytics and crash reporting.
+The App can be played without providing personal information.
 
 ---
 
-## 5. Children's privacy
+## 2.2 Information Stored Locally On Your Device
 
-The App is designed for ages **13 and up**. We do not knowingly collect personal
-data from children under 13. If you are under 13, please do not use the App. If
-you believe a child under 13 has used the App, contact us at the email above and
-we will help confirm no personal data is held (the App does not collect any
-personal data in any case).
+The following information may be stored locally on your device:
 
-> *Future versions may participate in Google's "Designed for Families" program for
-> ages 8+; this policy will be updated and family-safe ad settings enforced before
-> that.*
+* High scores
+* Best streaks
+* Total XP
+* Player level progression
+* Games played statistics
+* Daily streak data
+* Local leaderboard records
+* Tutorial completion status
+* Audio and gameplay settings
+* Purchased gem balances
+* Owned cosmetic items
+* Remove Ads purchase status
+* Achievement progress
+* Reward unlock progress
 
----
+This information remains on your device and is not transmitted to our servers.
 
-## 6. Your rights
+You may remove this information at any time by:
 
-- **Access / delete** — Uninstall the App or clear app data; all local data is
-  immediately erased.
-- **Opt out of ad personalization** — Use the Android system setting described
-  in §3.
-- **Contact us** — Email **adzonapp@gmail.com** for any privacy
-  question. We respond within 7 days.
-
-EU/UK users have additional rights under GDPR (access, rectification, erasure,
-portability, objection). Since the App holds no identifying personal data on our
-side, these are satisfied by uninstalling. For ad-related data, contact Google
-directly.
-
-California residents have similar rights under CCPA. We do not sell personal
-information.
+* Uninstalling the App
+* Clearing App Data through Android Settings
 
 ---
 
-## 7. Data retention
+## 2.3 Information Processed By Third-Party Services
 
-- **On your device:** kept until you uninstall or clear data
-- **On our servers:** we operate no servers; we retain nothing
-- **Google AdMob / Play / Firebase:** governed by Google's retention policies
+The App uses the following third-party services.
+
+### Google AdMob
+
+Used for:
+
+* Banner Ads
+* Interstitial Ads
+* Rewarded Ads
+
+AdMob may process:
+
+* Advertising ID
+* Device identifiers
+* IP address
+* Approximate location derived from IP
+* Ad interaction events
+* Device information
+
+Google Privacy Policy:
+
+https://policies.google.com/privacy
 
 ---
 
-## 8. Security
+### Firebase Analytics
 
-Local data is sandboxed by Android's app isolation. Network traffic to Google's
-ad, billing, and analytics services uses HTTPS. We use no custom backend, so there is no
-server-side data to breach.
+Used to understand how players interact with the App.
+
+Firebase Analytics may process:
+
+* Screen views
+* Session duration
+* App interactions
+* Device information
+* Engagement metrics
+
+This information is aggregated and anonymous.
 
 ---
 
-## 9. Changes to this policy
+### Firebase Crashlytics
 
-If we change this policy, the "Last updated" date above will change and a notice
-will appear in the App on next launch. Continued use after a change means you
-accept the new policy.
+Used to identify and fix crashes and technical issues.
+
+Crashlytics may process:
+
+* Crash logs
+* Device model
+* Operating system version
+* Diagnostic information
+
+This information is used solely to improve App stability.
 
 ---
 
-## 10. Contact
+### Google Play Billing
 
-**Adzon Studios**
-Email: **adzonapp@gmail.com**
+Used for optional purchases including:
+
+* Gem Packs
+* Remove Ads
+
+Google Play Billing processes purchase transactions.
+
+We do not receive or store:
+
+* Credit card information
+* Bank account information
+* Payment credentials
+
+Payment information is handled entirely by Google Play.
+
+---
+
+# 3. How We Use Information
+
+Information is used to:
+
+* Maintain gameplay progress
+* Store local achievements and rewards
+* Restore purchased content
+* Improve gameplay balance
+* Understand usage patterns
+* Diagnose crashes and technical issues
+* Serve advertisements
+* Verify in-app purchases
+
+We do not sell personal information.
+
+We do not use collected information for email marketing.
+
+---
+
+# 4. In-App Purchases
+
+The App offers optional in-app purchases.
+
+Examples include:
+
+* Gem Packs
+* Remove Ads
+
+All purchases are securely processed through Google Play Billing.
+
+Purchase records are managed by Google and subject to Google's privacy policies.
+
+Virtual currency ("Gems") is used exclusively inside the App and has no real-world monetary value.
+
+---
+
+# 5. Data Sharing
+
+We do not sell or rent user data.
+
+Information may be processed by:
+
+* Google AdMob
+* Firebase Analytics
+* Firebase Crashlytics
+* Google Play Billing
+
+as required to provide their services.
+
+---
+
+# 6. Children's Privacy
+
+The App is not directed toward children under 13 years of age.
+
+We do not knowingly collect personal information from children under 13.
+
+If you believe a child has provided information in violation of this policy, please contact us.
+
+---
+
+# 7. Data Retention
+
+Local gameplay information remains on your device until:
+
+* You uninstall the App
+* You clear App Data
+
+Google services retain information according to their own retention policies.
+
+---
+
+# 8. Security
+
+Information transmitted through Google services uses industry-standard encrypted connections (HTTPS/TLS).
+
+The App does not operate its own backend servers.
+
+---
+
+# 9. Your Rights
+
+You may:
+
+* Delete local App data
+* Reset or disable Advertising ID through Android Settings
+* Contact us regarding privacy concerns
+
+EU/UK users may have additional rights under GDPR.
+
+California residents may have rights under CCPA.
+
+---
+
+# 10. Changes To This Policy
+
+We may update this Privacy Policy periodically.
+
+Changes will be reflected by updating the "Last Updated" date at the top of this document.
+
+---
+
+# 11. Contact
+
+Adzon Studios
+
+Email: [adzonapp@gmail.com](mailto:adzonapp@gmail.com)
+
 Country: India
